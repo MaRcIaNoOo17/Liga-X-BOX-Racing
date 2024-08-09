@@ -3,10 +3,10 @@
 
 
 :root {
-    --cor-principal: rgba(128, 28, 28, 100%);
-    --cor-secundaria: #15C4EB;
-    --cor-terciaria: #AF9C0C;
-    --cor-hover: #F3F4ED;
+    --cor-principal: #000c0c;
+    --cor-secundaria: #0fbab7;
+    --cor-terciaria: #f1d989;
+    --cor-hover: #3e3932;
 
 }
 
@@ -16,13 +16,11 @@
 }
 
 body {
+
     background-color: var(--cor-principal);
     
     
 }
-
-
-
 
 
 nav {
@@ -45,13 +43,14 @@ a {
     color: var(--cor-secundaria);
     font-family: 'Joti one', serif;
  }
+ 
 
 h1 {
     color: var(--cor-terciaria);
     font-family: 'Joti one', serif;
     font-size: 32px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 40px;
  }
 
 .img__logos {
@@ -62,7 +61,7 @@ h1 {
 } 
 
 .xbox__logo {
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     height: 100px;
@@ -90,7 +89,7 @@ h1 {
 }
 
 .form__1 :hover {
-    background-color: #F3F4ED;
+    background-color: var(--cor-hover);
     border-radius: 4px;
     
     
