@@ -22,12 +22,14 @@ body {
 }
 
 h1 {
+    font-family: 'Joti one', serif;
     color: #f1d989;
     text-align: center;
     background: none;
 }
 
 .regras__liga {
+    font-family: 'Joti one', serif;
     margin: 50px;
     display: flex;
     justify-content: center;
@@ -37,20 +39,11 @@ h1 {
     
 }
 
-.parte__1 {
-    color: #f1d989;
-    
+div h2 {
+    color: #0fbab7;
 }
 
-.parte__2 {
-    color: #f1d989;
-}
-
-.parte__3 {
-    color: #f1d989;    
-    
-}
-.parte__4 {
+div p {
     color: #f1d989;
 }
 
@@ -58,6 +51,6 @@ h1 {
     margin: 25px;
     display: flex;
     justify-content: center;
-    height: 20px;
+    height: 35px;
     
 }
