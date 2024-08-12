@@ -53,6 +53,8 @@ h1 {
     margin-top: 40px;
  }
 
+
+
 .img__logos {
     display: flex;
     justify-content: center;
@@ -71,9 +73,12 @@ h1 {
 .img__vespa {
     display: flex;
     justify-content: center;
+    gap: 100px;
     height:316px;
     
 }
+
+
 
 .rodape__links {
     margin-top: 20px;

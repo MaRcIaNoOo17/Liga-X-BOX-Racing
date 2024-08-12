@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Joti+One&display=swap');
+
+
+:root {
+    --cor-principal: #000c0c;
+    --cor-secundaria: #0fbab7;
+    --cor-terciaria: #f1d989;
+    --cor-hover: #3e3932;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: var(--cor-principal);
+    
+    
+}
+
+h1 {
+    color: #f1d989;
+    text-align: center;
+    background: none;
+}
+
+.regras__liga {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    
+}
+
+.parte__1 {
+    color: #f1d989;
+    
+}
+
+.parte__2 {
+    color: #f1d989;
+}
+
+.parte__3 {
+    color: #f1d989;    
+    
+}
+.parte__4 {
+    color: #f1d989;
+}
+
+.logos__lastro {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    
+}
