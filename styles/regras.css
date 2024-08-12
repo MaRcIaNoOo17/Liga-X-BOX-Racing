@@ -26,7 +26,8 @@ h1 {
     font-family: 'Joti one', serif;
     color: #f1d989;
     text-align: center;
-    background: none;
+    text-decoration: none;
+    
 }
 
 .regras__liga {
@@ -61,15 +62,7 @@ div p {
 }
 
 .exclusao__liga {
-    color: rgb(55, 0, 255);
-}
-
-.tabela__pontos {
-    
-    background-color: #0fbab7;
-    border-style: groove;
-    border-radius: 30px;
-
+    color: rgb(61, 67, 238);
 }
 
 .logos__lastro {
@@ -79,3 +72,4 @@ div p {
     height: 32px;
     
 }
+
