@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Joti+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 
 
 :root {
@@ -21,13 +23,25 @@ body {
     
 }
 
-h1 {
-    
-    font-family: 'Joti one', serif;
-    color: #f1d989;
+.nav__menu {
+    margin: 25px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+    gap: 35px;
+}
+
+a {
+    font-family: 'Rye', serif;
+    color: #e14d13;
     text-align: center;
     text-decoration: none;
-    
+}
+
+.inicio__html {
+    font-size: 45px;
+    color: #0fbab7;
 }
 
 .regras__liga {
@@ -41,7 +55,9 @@ h1 {
     
 }
 
+
 div h2 {
+    font-family: 'rye', serif;
     color: #0fbab7;
 }
 

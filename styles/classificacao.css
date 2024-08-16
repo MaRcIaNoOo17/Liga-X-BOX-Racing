@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Joti+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #02130D;
+}
+
+h1 {
+    font-family: 'rye', serif;
+    font-size: 20px;
+    color: #0C3323;
+    background-color: #C2C744;
+    display: flex;
+    justify-content: center;
+    height: 33px;
+    width: 251px;
+    margin: 7px;
+    margin-top: 35px;
+    margin-left: 89px;
+    border-radius: 6px;
+    
+}
+
+
+table {
+
+    font-family: 'joti one', serif;
+    font-size: 10px;
+    background-color: #0C3323;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    width: 380px;
+    height: 410px;
+    border-radius: 10px;
+    margin-left: 24px;
+    padding: 17px;
+    
+    
+    
+
+}
+
+
+
+img {
+
+    display: flex; 
+    height: 16px;
+    width: 120px;
+    
+}
+
+.fundo__tabela {
+
+    text-align: center;
+    font-size: 10px;
+    background-color: #C2C744;
+    height: 12px;
+    width: 110px;
+    border-radius: 1px;
+}
+
+
+th {
+
+    background-color: #C2C744;
+    height: 12px;
+    width: 110px;
+    border-radius: 1px;
+    
+}
+
+.xbox__logo {
+    margin-top: 50px;
+    margin-left: 115px;
+    height: 141px;
+    width: 200px;
+
+}
+
+h2 {
+    color: #C2C744;
+    text-align: center;
+}
+
+
+
+

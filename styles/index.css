@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Joti+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 
 
 :root {
@@ -47,7 +49,7 @@ a {
 
 h1 {
     color: var(--cor-terciaria);
-    font-family: 'Joti one', serif;
+    font-family: 'Rye', serif;
     font-size: 32px;
     text-align: center;
     margin-top: 40px;
