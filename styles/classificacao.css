@@ -7,92 +7,81 @@
 
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
 
     background-color: #02130D;
+
 }
 
 h1 {
-    font-family: 'rye', serif;
-    font-size: 20px;
-    color: #0C3323;
-    background-color: #C2C744;
-    display: flex;
-    justify-content: center;
-    height: 33px;
-    width: 251px;
-    margin: 7px;
-    margin-top: 35px;
-    margin-left: 89px;
-    border-radius: 6px;
     
+    color: #C2C744;
+    text-align: center;
+    font-family: 'rye', serif;
 }
 
+tbody {
+    
+    background-color: #0C3323;
+    border-radius: 1px;
+    
+}
 
 table {
 
-    font-family: 'joti one', serif;
-    font-size: 10px;
-    background-color: #0C3323;
     display: flex;
     justify-content: center;
-    gap: 3px;
-    width: 380px;
-    height: 410px;
-    border-radius: 10px;
-    margin-left: 24px;
-    padding: 17px;
-    
-    
-    
 
-}
-
-
-
-img {
-
-    display: flex; 
-    height: 16px;
-    width: 120px;
-    
 }
 
 .fundo__tabela {
 
+    border: solid, #0C3323;
+    background-color: #C2C744;
+    font-family: 'joti one', serif;
+    font-size: 8px;
     text-align: center;
-    font-size: 10px;
-    background-color: #C2C744;
-    height: 12px;
+    box-sizing: border-box;
+    border-radius: 3px;
     width: 110px;
-    border-radius: 1px;
-}
-
-
-th {
-
-    background-color: #C2C744;
     height: 12px;
-    width: 110px;
-    border-radius: 1px;
-    
-}
-
-.xbox__logo {
-    margin-top: 50px;
-    margin-left: 115px;
-    height: 141px;
-    width: 200px;
+    padding: 5px;
 
 }
 
-h2 {
+.fundo__tabela2 {
+
+    border: groove, #C2C744, 1px;
+    font-family: 'joti one', serif;
     color: #C2C744;
+    font-size: 8px;
     text-align: center;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 112px;
+    height: 1px;
+
+
 }
 
+ img {
+    
+    box-sizing: border-box;
+    width: 145px;
+    height: 20px;
 
+ }
+
+ h2 {
+
+    color: #C2C744;
+    font-family: 'rye', serif;
+    margin: 40px;
+    text-align: center;
+
+ }
 
 
