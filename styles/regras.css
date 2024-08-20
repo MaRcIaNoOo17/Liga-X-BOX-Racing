@@ -12,41 +12,49 @@
 }
 
 * {
+
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
 
+    display: block;
     background-color: var(--cor-principal);
-    
-    
+      
 }
 
 .nav__menu {
+
     margin: 25px;
-    padding: 25px;
     display: flex;
     justify-content: center;
     align-items: self-end;
-    gap: 35px;
+    gap: 10px;
+
 }
 
 a {
+    
     font-family: 'Rye', serif;
     color: #e14d13;
     text-align: center;
     text-decoration: none;
+
 }
 
 .inicio__html {
-    font-size: 45px;
+
+    font-size: 2.5rem;
     color: #0fbab7;
+
 }
 
 .regras__liga {
+    
     font-family: 'Joti one', serif;
-    margin: 50px;
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -57,35 +65,49 @@ a {
 
 
 div h2 {
+    margin: 15px;
     font-family: 'rye', serif;
     color: #0fbab7;
+
 }
 
 div p {
+
     color: #f1d989;
+
 }
 
+
 .p__5 {
+
     color: rgb(248, 249, 246);
+
 }
 
 .p__10 {
+
     color: yellow;
+
 }
 
 .p__15 {
+
     color: red;
+
 }
 
 .exclusao__liga {
+
     color: rgb(61, 67, 238);
+
 }
 
 .logos__lastro {
-    margin: 25px;
+
+    margin: 15px;
     display: flex;
     justify-content: center;
-    height: 32px;
+    height: 25px;
     
 }
 

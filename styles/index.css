@@ -50,7 +50,7 @@ a {
 h1 {
     color: var(--cor-terciaria);
     font-family: 'Rye', serif;
-    font-size: 32px;
+    font-size: 2rem;
     text-align: center;
     margin-top: 40px;
  }

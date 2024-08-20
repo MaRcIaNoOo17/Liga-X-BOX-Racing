@@ -16,11 +16,20 @@ body {
 
 }
 
-h1 {
-    
+h1  {
+
+    margin: 25px;
     color: #C2C744;
     text-align: center;
     font-family: 'rye', serif;
+
+}
+
+a {
+    
+    text-decoration: none;
+    color: #C2C744;
+
 }
 
 tbody {
@@ -42,7 +51,7 @@ table {
     border: solid, #0C3323;
     background-color: #C2C744;
     font-family: 'joti one', serif;
-    font-size: 8px;
+    font-size: 0.5rem;
     text-align: center;
     box-sizing: border-box;
     border-radius: 3px;
@@ -57,7 +66,7 @@ table {
     border: groove, #C2C744, 1px;
     font-family: 'joti one', serif;
     color: #C2C744;
-    font-size: 8px;
+    font-size: 0.5rem;
     text-align: center;
     box-sizing: border-box;
     border-radius: 3px;
@@ -75,12 +84,14 @@ table {
 
  }
 
+
  h2 {
 
     color: #C2C744;
     font-family: 'rye', serif;
     margin: 40px;
     text-align: center;
+    
 
  }
 
