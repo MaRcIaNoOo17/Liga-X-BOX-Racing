@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Joti+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: #02130D;
+
+}
+
+nav {
+
+    margin: 45px;
+    text-align: center;
+    gap: 10px;
+
+}
+
+a {
+    
+    
+    font-family: 'rye', serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: #C2C744;
+
+}
+
+.tabela__temporada {
+
+    
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+
+.tabela__gp {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+td {
+
+    
+    border: #C2C744 solid 2px;
+    border-radius: 15px;
+    font-family: 'joti one', serif;
+    color: #C2C744;
+    background-color: #0C3323;
+
+}
+
+.bandeirasf1__img { 
+    
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 5px;
+    height: 25px;
+    width: 25px;
+
+}
+
+
+.rodape__equipes {
+
+    height: 25px;
+    margin: 45px;
+    display: flex;
+    justify-content: center;
+
+}
+

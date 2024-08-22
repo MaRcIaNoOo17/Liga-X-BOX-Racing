@@ -18,11 +18,26 @@ body {
 
 h1  {
 
-    margin: 25px;
+    margin: 10px;
     color: #C2C744;
     text-align: center;
     font-family: 'rye', serif;
 
+}
+
+div {
+    
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: #3db3f3;
+}
+
+p {
+    height: 15px;
+    width: 25px;
+    border-radius: 500px;
+    background-color: #e88317;
 }
 
 a {
@@ -34,13 +49,12 @@ a {
 
 tbody {
     
-    background-color: #0C3323;
     border-radius: 1px;
     
 }
 
 table {
-
+    
     display: flex;
     justify-content: center;
 
@@ -48,25 +62,61 @@ table {
 
 .fundo__tabela {
 
-    border: solid, #0C3323;
+    
     background-color: #C2C744;
     font-family: 'joti one', serif;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     text-align: center;
     box-sizing: border-box;
-    border-radius: 3px;
+    border-radius: 6px;
     width: 110px;
     height: 12px;
     padding: 5px;
 
 }
 
+.fundo__tabelatop1 {
+
+    font-family: 'joti one', serif;
+    font-size: 0.8rem;
+    color: #C2C744;
+    text-align: center;
+    border: groove, #C2C744, 5px;
+    border-radius: 3px;
+
+
+}
+
+.fundo__tabelatop2 {
+
+    font-family: 'joti one', serif;
+    font-size: 0.8rem;
+    color: #c0c0c0;
+    text-align: center;
+    border: groove, #c0c0c0, 5px;
+    border-radius: 3px;
+
+
+
+}
+
+.fundo__tabelatop3 {
+
+    font-family: 'joti one', serif;
+    font-size: 0.8rem;
+    color: #db8433;
+    text-align: center;
+    border: groove, #db8433, 5px;
+    border-radius: 3px;
+
+}
+
 .fundo__tabela2 {
 
-    border: groove, #C2C744, 1px;
+    border: groove, #3db3f3, 2px;
     font-family: 'joti one', serif;
-    color: #C2C744;
-    font-size: 0.5rem;
+    color: #f6f7f3;
+    font-size: 0.8rem;
     text-align: center;
     box-sizing: border-box;
     border-radius: 3px;
@@ -76,7 +126,7 @@ table {
 
 }
 
- img {
+img {
     
     box-sizing: border-box;
     width: 145px;
@@ -85,11 +135,11 @@ table {
  }
 
 
- h2 {
+h2 {
 
     color: #C2C744;
     font-family: 'rye', serif;
-    margin: 40px;
+    margin: 5px;
     text-align: center;
     
 

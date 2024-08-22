@@ -54,7 +54,6 @@ a {
 .regras__liga {
     
     font-family: 'Joti one', serif;
-    
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -65,6 +64,7 @@ a {
 
 
 div h2 {
+    
     margin: 15px;
     font-family: 'rye', serif;
     color: #0fbab7;

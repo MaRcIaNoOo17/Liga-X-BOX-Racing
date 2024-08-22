@@ -5,14 +5,16 @@
 
 
 :root {
+
     --cor-principal: #000c0c;
-    --cor-secundaria: #0fbab7;
-    --cor-terciaria: #f1d989;
+    --cor-secundaria: #C2C744;
+    --cor-terciaria: #C2C744;
     --cor-hover: #3e3932;
 
 }
 
 * {
+
     margin: 0;
     padding: 0;
 }
@@ -26,7 +28,8 @@ body {
 
 
 nav {
-    margin: 45px;
+
+    margin: 25px;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -35,29 +38,36 @@ nav {
  }
 
 nav :hover {
+
     background-color: var(--cor-hover);
     border-radius: 4px;
  }
 
 
 a {
+
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: 'Joti one', serif;
+
  }
  
 
 h1 {
+
+    margin: 15px;
     color: var(--cor-terciaria);
     font-family: 'Rye', serif;
     font-size: 2rem;
     text-align: center;
     margin-top: 40px;
+
  }
 
 
 
 .img__logos {
+
     display: flex;
     justify-content: center;
     height: 25px;
@@ -65,6 +75,7 @@ h1 {
 } 
 
 .xbox__logo {
+
     margin-top: 10px;
     display: flex;
     justify-content: center;
@@ -73,6 +84,7 @@ h1 {
 }
 
 .img__vespa {
+
     display: flex;
     justify-content: center;
     gap: 100px;
@@ -83,19 +95,24 @@ h1 {
 
 
 .rodape__links {
+
     margin-top: 20px;
     display: flex;
     justify-content: center;
     gap: 25px;
+
 }
 
 .form__1 {
+
     margin-top: 80px;
     margin-right: 20px;
     text-align: end;
+
 }
 
 .form__1 :hover {
+    
     background-color: var(--cor-hover);
     border-radius: 4px;
     
