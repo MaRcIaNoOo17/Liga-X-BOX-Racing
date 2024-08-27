@@ -6,8 +6,8 @@
 
 :root {
 
-    --cor-principal: #000c0c;
-    --cor-secundaria: #087ad7;
+    --cor-principal: #02130D;
+    --cor-secundaria: #C2C744;
     --cor-terciaria: #f69e4c;
     --cor-hover: #ca7e15;
 
@@ -21,14 +21,7 @@
 
 body {
     
-        background-image: url(backgroud.jpeg);
-        background-size: cover; /* Ajusta a imagem para cobrir toda a área do contêiner */
-        background-position: center; /* Centraliza a imagem */
-        background-repeat: no-repeat; /* Evita a repetição da imagem */
-        background-attachment: fixed; /* Mantém a imagem fixa enquanto rola a página */
-        height: 50vh; /* Garante que o body ocupe toda a altura da tela */
-
-    
+       background-color: var(--cor-principal);
     
     
 }
@@ -120,8 +113,8 @@ h1 {
 
 .form__1 :hover {
     
-    background-color: var(--cor-hover);
-    border-radius: 4px;
+    color: var(--cor-hover);
+    
     
     
 }
