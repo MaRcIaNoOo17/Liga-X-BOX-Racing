@@ -244,13 +244,13 @@ body {
 
 
 /* Responsividade para iPhone 12 */
-@media (max-width: 395px) {
+@media (max-width: 700px) {
     
     .ranking {
     
         margin-top: 1em;
         display: grid;
-        grid-template-columns: 45% 50%;
+        grid-template-columns: 45% 45%;
         align-items: center;
         gap: 15px;
     }
