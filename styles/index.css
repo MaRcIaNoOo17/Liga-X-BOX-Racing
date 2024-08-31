@@ -48,7 +48,7 @@ a {
 
     text-decoration: none;
     color: var(--cor-secundaria);
-    font-family: 'Joti one', serif;
+    font-family: 'rye', serif;
 
  }
  
@@ -56,7 +56,7 @@ a {
 h1 {
 
     margin: 15px;
-    color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
     font-family: 'Rye', serif;
     font-size: 2rem;
     text-align: center;

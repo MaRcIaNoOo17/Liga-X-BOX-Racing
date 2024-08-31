@@ -5,9 +5,9 @@
 
 :root {
     --cor-principal: #000c0c;
-    --cor-secundaria: #0fbab7;
+    --cor-secundaria: #C2C744;
     --cor-terciaria: #f1d989;
-    --cor-hover: #3e3932;
+    --cor-hover: #ca7e15;
 
 }
 
@@ -35,10 +35,14 @@ body {
 
 }
 
+a:hover {
+    color: var(--cor-hover);
+}
+
 a {
     
     font-family: 'Rye', serif;
-    color: #e14d13;
+    color: var(--cor-secundaria);
     text-align: center;
     text-decoration: none;
 
@@ -47,7 +51,7 @@ a {
 .inicio__html {
 
     font-size: 2.5rem;
-    color: #0fbab7;
+    color: var(--cor-secundaria);
 
 }
 
@@ -76,6 +80,7 @@ div p {
     color: #f1d989;
 
 }
+
 
 
 .p__5 {
