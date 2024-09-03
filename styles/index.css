@@ -21,7 +21,10 @@
 
 body {
     
-       background-color: var(--cor-principal);
+      background-image: url(fundof1.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     
     
 }
@@ -119,7 +122,14 @@ h1 {
     
 }
 
+@media (max-width: 700px) {
 
+    body {
+
+        background-image: url(fundoclassificacao.png);
+        background-size: 55vh;
+    }
+}
 
 
 

@@ -11,7 +11,10 @@
 
 body {
 
-    background-color: #02130D;
+    background-image: url(fundof1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
     text-align: center;
     color: #C2C744;
     font-family: 'rye', serif;
@@ -26,6 +29,7 @@ a {
 }
 
 a:hover {
+
     color: #ca7e15;
 }
 
@@ -255,6 +259,17 @@ a:hover {
 /* Responsividade para iPhone 12 */
 @media (max-width: 700px) {
     
+    body {
+        
+        background-image: url(fundoclassificacao.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 58vh;
+        
+        
+    }
+    
+    
     .ranking {
     
         margin-top: 1em;
@@ -266,14 +281,23 @@ a:hover {
 
 
     .car {
+
         height: 25px;
+
+    }
+
+    a {
+        color:#C2C744 ;
     }
 
     .row {
+
+        font-weight: 400;
+        color: #C2C744;
         margin-right: 5px;
         font-size: 0.5em;
     }
 
-  
+   
     
 }
