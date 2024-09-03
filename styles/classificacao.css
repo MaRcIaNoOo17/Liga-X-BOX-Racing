@@ -265,7 +265,7 @@ a:hover {
         background-image: url(fundoclassificacao.png);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 65vh;
+        background-size: 100%;
         
         
     }
@@ -299,11 +299,14 @@ a:hover {
         font-size: 0.5em;
     }
 
-    .logos__f1 {
+   .logos__f1 {
+    opacity: 0.8;
+    
 
-        margin: 3em;
-    }
+   }
+
 
    
     
 }
+
