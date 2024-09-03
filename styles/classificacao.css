@@ -14,6 +14,7 @@ body {
     background-image: url(fundof1.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     
     text-align: center;
     color: #C2C744;
@@ -257,14 +258,14 @@ a:hover {
 
 
 /* Responsividade para iPhone 12 */
-@media (max-width: 700px) {
+@media (max-width: 550px) {
     
     body {
         
         background-image: url(fundoclassificacao.png);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 58vh;
+        background-size: 65vh;
         
         
     }
@@ -296,6 +297,11 @@ a:hover {
         color: #C2C744;
         margin-right: 5px;
         font-size: 0.5em;
+    }
+
+    .logos__f1 {
+
+        margin: 3em;
     }
 
    
