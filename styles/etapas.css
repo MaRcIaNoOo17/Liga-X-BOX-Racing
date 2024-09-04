@@ -14,7 +14,13 @@
 
 body {
 
-    background-color: #02130D;
+    background-image: url(image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #000000;
+    opacity: 0.9;
+    
 
 }
 
@@ -30,7 +36,7 @@ a {
     
     
     font-family: 'rye', serif;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     color: #C2C744;
 
@@ -59,9 +65,9 @@ td {
 
     
     border: #C2C744 solid 2px;
-    border-radius: 15px;
-    font-family: 'joti one', serif;
-    color: #C2C744;
+    border-radius: 10px;
+    font-family: 'arial', sans-serif serif;
+    color: #f6e821;
     background-color: #0C3323;
 
 }
@@ -80,7 +86,7 @@ td {
 .rodape__equipes {
 
     height: 25px;
-    margin: 45px;
+    margin-top: 8em;
     display: flex;
     justify-content: center;
 

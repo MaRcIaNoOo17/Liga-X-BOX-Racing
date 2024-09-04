@@ -15,7 +15,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
     text-align: center;
     color: #C2C744;
     font-family: 'rye', serif;
@@ -25,6 +24,7 @@ body {
 }
 
 a {
+    
     color: #C2C744;
     text-decoration: none;
 }
@@ -60,7 +60,7 @@ a:hover {
     flex-direction: row-reverse;
     text-align: center;
     font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     color: #C2C744;
     
     
@@ -212,46 +212,46 @@ a:hover {
 }
 
 /* Atrasos na animação para cada linha */
-.img1 { animation-delay: 0s; }
+.img1 { animation-delay: 0.5s; }
 .img2 { animation-delay: 1s; }
-.img3 { animation-delay: 2.2s;}
-.img4 { animation-delay: 3.2s;}
-.img5 { animation-delay: 4.2s;}
-.img6 { animation-delay: 5.2s; }
-.img7 { animation-delay: 6.2s; }
-.img8 { animation-delay: 7.2s; }
-.img9 { animation-delay: 8.2s; }
-.img10 { animation-delay: 9.2s; }
-.img11 { animation-delay: 10.2s; }
-.img12 { animation-delay: 11.2s; }
-.img13 { animation-delay: 12.2s; }
-.img14 { animation-delay: 13.2s; }
-.img15 { animation-delay: 14.2s; }
-.img16 { animation-delay: 15.2s; }
-.img17 { animation-delay: 16.2s; }
-.img18 { animation-delay: 17.2s; }
-.img19 { animation-delay: 18.2s; }
-.img20 { animation-delay: 19.2s; }
-.info1 { animation-delay: 0s; }
+.img3 { animation-delay: 1.5s;}
+.img4 { animation-delay: 2s;}
+.img5 { animation-delay: 2.5s;}
+.img6 { animation-delay: 3s; }
+.img7 { animation-delay: 3.5s; }
+.img8 { animation-delay: 4s; }
+.img9 { animation-delay: 4.5s; }
+.img10 { animation-delay: 5s; }
+.img11 { animation-delay: 5.5s; }
+.img12 { animation-delay: 6s; }
+.img13 { animation-delay: 6.5s; }
+.img14 { animation-delay: 7s; }
+.img15 { animation-delay: 7.5s; }
+.img16 { animation-delay: 8s; }
+.img17 { animation-delay: 8.5s; }
+.img18 { animation-delay: 9s; }
+.img19 { animation-delay: 9.5s; }
+.img20 { animation-delay: 10s; }
+.info1 { animation-delay: 0.5s; }
 .info2 { animation-delay: 1s; }
-.info3 { animation-delay: 2.2s;}
-.info4 { animation-delay: 3.2s;}
-.info5 { animation-delay: 4.2s;}
-.info6 { animation-delay: 5.2s; }
-.info7 { animation-delay: 6.2s; }
-.info8 { animation-delay: 7.2s; }
-.info9 { animation-delay: 8.2s; }
-.info10 { animation-delay: 9.2s; }
-.info11 { animation-delay: 10.2s; }
-.info12 { animation-delay: 11.2s; }
-.info13 { animation-delay: 12.2s; }
-.info14 { animation-delay: 13.2s; }
-.info15 { animation-delay: 14.2s; }
-.info16 { animation-delay: 15.2s; }
-.info17 { animation-delay: 16.2s; }
-.info18 { animation-delay: 17.2s; }
-.info19 { animation-delay: 18.2s; }
-.info20 { animation-delay: 19.2s; }
+.info3 { animation-delay: 1.5s;}
+.info4 { animation-delay: 2s;}
+.info5 { animation-delay: 2.5s;}
+.info6 { animation-delay: 3s; }
+.info7 { animation-delay: 3.5s; }
+.info8 { animation-delay: 4s; }
+.info9 { animation-delay: 4.5s; }
+.info10 { animation-delay: 5s; }
+.info11 { animation-delay: 5.5s; }
+.info12 { animation-delay: 6s; }
+.info13 { animation-delay: 6.5s; }
+.info14 { animation-delay: 7s; }
+.info15 { animation-delay: 7.5s; }
+.info16 { animation-delay: 8s; }
+.info17 { animation-delay: 8.5s; }
+.info18 { animation-delay: 9s; }
+.info19 { animation-delay: 9.5s; }
+.info20 { animation-delay: 10s; }
 
 /* Adicione delays semelhantes para mais linhas */
  
