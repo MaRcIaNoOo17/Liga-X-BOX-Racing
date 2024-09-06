@@ -36,7 +36,7 @@ a {
     
     
     font-family: 'rye', serif;
-    font-size: 20px;
+    font-size: 40px;
     text-decoration: none;
     color: #C2C744;
 
@@ -85,7 +85,7 @@ td {
 
 .rodape__equipes {
 
-    height: 25px;
+    height: 40px;
     margin-top: 8em;
     display: flex;
     justify-content: center;
