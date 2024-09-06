@@ -21,10 +21,10 @@
 
 body {
     
-      background-image: url(fundof1.png);
+      background-image: url(../fundos/fundo1.png);
       background-position: center;
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: 300vh;
     
     
 }
@@ -50,8 +50,9 @@ nav :hover {
 a {
 
     text-decoration: none;
-    color: var(--cor-secundaria);
+    color: #C2C744;
     font-family: 'rye', serif;
+    font-size: 16px;
 
  }
  
@@ -61,7 +62,7 @@ h1 {
     margin: 15px;
     color: var(--cor-secundaria);
     font-family: 'Rye', serif;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     margin-top: 40px;
 
@@ -73,27 +74,21 @@ h1 {
 
     display: flex;
     justify-content: center;
-    height: 25px;
+    height: 50px;
+    margin-top: 3em;
     
 } 
 
 .xbox__logo {
 
-    margin-top: 10px;
+    margin-top: 20em;
     display: flex;
     justify-content: center;
-    height: 100px;
+    height: 200px;
 
 }
 
-.img__vespa {
 
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    height:316px;
-    
-}
 
 
 
@@ -106,13 +101,7 @@ h1 {
 
 }
 
-.form__1 {
 
-    margin-top: 80px;
-    margin-right: 20px;
-    text-align: end;
-
-}
 
 .form__1 :hover {
     
@@ -126,10 +115,61 @@ h1 {
 
     body {
 
-        background-image: url(fundoclassificacao.png);
-        background-size: 57vh;
+        background-image: url(../fundos/ayrton_senna.jpg);
+        background-size: 155%;
     }
+
+    a {
+
+        text-decoration: none;
+        color: #C2C744;
+        font-family: 'rye', serif;
+        font-size: 12px;
+    
+     }
+
+    nav {
+
+        margin: 2em 0;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        
+    
+     }
+
+     .img__logos {
+
+        display: flex;
+        justify-content: center;
+        height: 22px;
+        margin-top: 10em;
+        
+        
+        
+    } 
+
+    .xbox__logo {
+
+        margin-top: 1em;
+        display: flex;
+        justify-content: center;
+        height: 100px;
+    
+    }
+
+    h1 {
+
+        margin: 1em 0;
+        color: var(--cor-secundaria);
+        font-family: 'Rye', serif;
+        font-size: 2rem;
+        text-align: center;
+        
+    
+     }
 }
+
 
 
 

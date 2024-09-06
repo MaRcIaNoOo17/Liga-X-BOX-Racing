@@ -14,12 +14,12 @@
 
 body {
 
-    background-image: url(image.png);
+    background-image: url(../fundos/fundo1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-color: #000000;
-    opacity: 0.9;
+    opacity: 0.8;
+   
     
 
 }
@@ -90,5 +90,20 @@ td {
     display: flex;
     justify-content: center;
 
+}
+
+@media (max-width: 550px) {
+
+    body {
+
+        background-image: url(../fundos/f1_wheels.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 70vh;
+        opacity: 0.8;
+       
+        
+    
+    }
 }
 

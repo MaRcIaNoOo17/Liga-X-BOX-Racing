@@ -21,7 +21,10 @@
 body {
 
     display: block;
-    background-color: var(--cor-principal);
+    background-image: url(../fundos/formula_1_dark.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
       
 }
 
@@ -114,5 +117,18 @@ div p {
     justify-content: center;
     height: 25px;
     
+}
+
+@media (max-width: 550px) {
+
+    body {
+
+        display: block;
+        background-image: url(../fundos/formula_1_dark.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+          
+    }
 }
 

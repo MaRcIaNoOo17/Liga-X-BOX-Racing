@@ -11,7 +11,7 @@
 
 body {
 
-    background-image: url(fundof1.png);
+    background-image: url(../fundos/fundo1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -262,10 +262,10 @@ a:hover {
     
     body {
         
-        background-image: url(fundoclassificacao.png);
+        background-image: url(../fundos/fundo1.png);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 60vh;
+        background-size: 250vh;
         
         
     }
@@ -277,7 +277,7 @@ a:hover {
         display: grid;
         grid-template-columns: 45% 45%;
         align-items: center;
-        gap: 15px;
+        gap: 25px;
     }
 
 
@@ -289,6 +289,7 @@ a:hover {
 
     a {
         color:#C2C744 ;
+
     }
 
     .row {
@@ -299,12 +300,15 @@ a:hover {
         font-size: 0.5em;
     }
 
-   .logos__f1 {
+    .logos__f1 {
 
-    opacity: 0.8;
-    
+        margin-top: 2em;
+        display: flex;
+        justify-content: center;
+        height: 20px;
+    }
 
-   }
+   
 
 
    
