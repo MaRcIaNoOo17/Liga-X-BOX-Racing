@@ -116,7 +116,7 @@ h1 {
     body {
 
         background-image: url(../fundos/fundoclassificacao.png);
-        background-size: 65vh;
+        background-size: 70vh;
     }
 
     a {
@@ -170,12 +170,12 @@ h1 {
      }
 }
 
-@media (min-width: 480px) {
+@media (min-width: 550px) {
 
     body {
 
         background-image: url(../fundos/fundoclassificacao.png);
-        background-size: 100vh;
+        background-size: 75vh;
     }
 
     .img__logos {
