@@ -64,7 +64,7 @@ h1 {
     font-family: 'Rye', serif;
     font-size: 3rem;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 2.5em;
 
  }
 
@@ -111,12 +111,12 @@ h1 {
     
 }
 
-@media (max-width: 550px) {
+@media (min-width: 390px) {
 
     body {
 
         background-image: url(../fundos/fundoclassificacao.png);
-        background-size: 155%;
+        background-size: 125%;
     }
 
     a {
@@ -143,7 +143,7 @@ h1 {
         display: flex;
         justify-content: center;
         height: 25px;
-        margin-top: 8em;
+        margin-top: 6em;
         
         
         
@@ -168,6 +168,34 @@ h1 {
         
     
      }
+}
+
+@media (min-width: 550px) {
+
+    body {
+
+        background-image: url(../fundos/fundoclassificacao.png);
+        background-size: 100%;
+    }
+
+    .img__logos {
+
+        display: flex;
+        justify-content: center;
+        height: 25px;
+        margin-top: 2em;
+        
+    } 
+
+    a {
+
+        text-decoration: none;
+        color: #C2C744;
+        font-family: 'rye', serif;
+        font-size: 16px;
+    
+     }
+
 }
 
 
