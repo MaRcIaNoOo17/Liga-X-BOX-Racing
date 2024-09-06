@@ -92,14 +92,14 @@ td {
 
 }
 
-@media (max-width: 550px) {
+@media (min-width: 390px) {
 
     body {
 
         background-image: url(../fundos/f1_wheels.jpg);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 70vh;
+        background-size: 80vh;
         opacity: 0.8;
        
         
@@ -109,10 +109,34 @@ td {
     .rodape__equipes {
 
         height: 25px;
-        margin-top: 8em;
+        margin-top: 1em;
         display: flex;
         justify-content: center;
     
+    }
+
+    @media (min-width: 550px) {
+
+        body {
+    
+            background-image: url(../fundos/f1_wheels.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 70vh;
+            opacity: 0.8;
+           
+            
+        
+        }
+    
+        .rodape__equipes {
+    
+            height: 25px;
+            margin-top: 8em;
+            display: flex;
+            justify-content: center;
+        
+        }
     }
 }
 

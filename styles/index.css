@@ -116,7 +116,7 @@ h1 {
     body {
 
         background-image: url(../fundos/fundoclassificacao.png);
-        background-size: 125%;
+        background-size: 100%;
     }
 
     a {
@@ -143,7 +143,7 @@ h1 {
         display: flex;
         justify-content: center;
         height: 25px;
-        margin-top: 6em;
+        margin-top: 2em;
         
         
         
@@ -175,7 +175,7 @@ h1 {
     body {
 
         background-image: url(../fundos/fundoclassificacao.png);
-        background-size: 100%;
+        background-size: 75vh;
     }
 
     .img__logos {
