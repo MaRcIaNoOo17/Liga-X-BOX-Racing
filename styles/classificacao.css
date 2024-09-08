@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Joti+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Rubik+Mono+One&display=swap');
 
 
 * {
@@ -17,7 +19,8 @@ body {
     background-size: cover;
     text-align: center;
     color: #C2C744;
-    font-family: 'rye', serif;
+    font-family: 'Joti One', 'sans-serif';
+    font-weight: 700;
     margin: 1em;
    
  
@@ -27,7 +30,7 @@ a {
     
     color: #C2C744;
     text-decoration: none;
-    font-weight: 700;
+    
 }
 
 a:hover {
@@ -60,10 +63,12 @@ a:hover {
     
     display: flex;
     flex-direction: row-reverse;
+    
     text-align: center;
     font-size: 10px;
     font-family: Arial, sans-serif;
-    color: #C2C744;
+    color:#C2C744;
+    
     
 }
 
@@ -72,6 +77,8 @@ a:hover {
     height: 50px;
     animation: fade-in 2s ease-in-out backwards, slide-in 2s ease-in-out backwards;
     margin-left: 4em;
+    
+    
 }
 
 .info1  {
@@ -339,7 +346,7 @@ a:hover {
 
     .logos__f1 {
 
-        margin-top: 4em;
+        margin-top: 2em;
         display: flex;
         justify-content: center;
         height: 25px;

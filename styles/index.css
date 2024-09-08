@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Joti+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
 
 :root {
@@ -168,7 +169,7 @@ h1 {
     
             background-image: url(../fundos/fundoclassificacao.png);
             background-position: center;
-            background-size: 55vh;
+            background-size: 60vh;
         }
 }
 
