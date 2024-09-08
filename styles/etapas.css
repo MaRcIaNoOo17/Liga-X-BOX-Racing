@@ -35,12 +35,17 @@ nav {
 a {
     
     
-    font-family: 'rye', serif;
+    font-family: 'Joti one', serif;
     font-size: 40px;
     text-decoration: none;
     color: #C2C744;
     
 
+}
+
+a:hover {
+
+   color:  #ca7e15;
 }
 
 .tabela__temporada {

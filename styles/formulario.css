@@ -1,21 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Joti+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+
+
+
+
 /* Estilos base - Mobile First */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'joti one', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #1a710e;
+    background-color: #0b0c0a;
     
     
 }
 
+.voltar {
+
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+a {
+
+    text-decoration: none;
+    font-family: 'joti one', serif;
+    color: #C2C744;
+}
+
 .form-container {
-    background-color: #094202;
+    background-color: #3a3a39;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: -2px 4px 35px #C2C744;
     border-radius: 8px;
     width: 90%;
     max-width: 400px;
@@ -25,36 +49,48 @@ body {
     text-align: center;
     margin-bottom: 20px;
     font-size: 24px;
-    color: #edf90a;
+    color: #C2C744;
 }
 
 .form-container label {
     display: block;
     font-size: 14px;
     margin-bottom: 5px;
-    color: #de2020;
+    color: #C2C744;
 }
 
 .form-container input[type="text"],
 .form-container input[type="email"],
 .form-container input[type="Gametarg"],
-.form-container input[type="tel"],
-.form-container button {
+.form-container input[type="tel"]
+{
     width: 100%;
     padding: 4px;
     margin-bottom: 15px;
     border: 1px solid #107f0c;
     border-radius: 5px;
     font-size: 16px;
+    box-shadow: -1px 1px 6px #C2C744;
     
     
+}
+
+.form-container button {
+    text-align: center;
+    margin-left: 100px;
+    width: 50%;
+    padding: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #107f0c;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
 .form-container input[type="text"]:focus,
 .form-container input[type="email"]:focus,
 .form-container input[type="Gametarg"]:focus,
 .form-container input[type="tel"]:focus {
-    border-color: #007bff;
+    border-color: #00ff15;
     outline: none;
     
 }
@@ -78,13 +114,15 @@ body {
 }
 
 .form-container .privacy a {
-    color: #372ee1;
+    color: #c3c1e8;
     text-decoration: none;
 }
 
 .form-container .privacy a:hover {
     text-decoration: underline;
 }
+
+
 
 /* Estilos para tablets e telas maiores */
 @media (min-width: 768px) {
