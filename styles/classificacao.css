@@ -19,7 +19,7 @@ body {
     color: #C2C744;
     font-family: 'rye', serif;
     margin: 1em;
-    
+   
  
 }
 
@@ -27,6 +27,7 @@ a {
     
     color: #C2C744;
     text-decoration: none;
+    font-weight: 700;
 }
 
 a:hover {
@@ -41,7 +42,8 @@ a:hover {
     display: grid;
     grid-template-columns: 35% 45%;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
+    
     
 }
 
@@ -50,7 +52,7 @@ a:hover {
     margin-top: 3em;
     display: flex;
     justify-content: center;
-    height: 25px;
+    height: 40px;
 }
 
 .row {
@@ -63,13 +65,13 @@ a:hover {
     font-family: Arial, sans-serif;
     color: #C2C744;
     
-    
 }
 
 .car {
 
     height: 50px;
     animation: fade-in 2s ease-in-out backwards, slide-in 2s ease-in-out backwards;
+    margin-left: 4em;
 }
 
 .info1  {
@@ -258,73 +260,85 @@ a:hover {
 
 
 /* Responsividade para iPhone 12 */
-@media (min-width: 390px) {
-    
-    body {
-        
-        background-image: url(../fundos/fundo1.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 190vh;
-        
-        
-    }
-    
-    
-    .ranking {
-    
-        margin-top: 1em;
-        display: grid;
-        grid-template-columns: 45% 45%;
-        align-items: center;
-        gap: 25px;
-    }
 
+@media (max-width: 551px) {
+
+    body {
+        background-image: url(../fundos/formula_1_dark.jpg);
+
+    }
 
     .car {
 
-        height: 25px;
-
+        height: 30px;
     }
 
-    a {
-        color:#C2C744 ;
-
+    .ranking {
+    
+        margin-top: 3em;
+        display: grid;
+        grid-template-columns: 45% 45%;
+        align-items: center;
+        gap: 10px;
+        
     }
 
     .row {
 
-        font-weight: 400;
-        color: #C2C744;
-        margin-right: 5px;
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: center;
         font-size: 0.5em;
+        font-family: Arial, sans-serif;
+        color: #C2C744;
+        
     }
 
     .logos__f1 {
 
-        margin-top: 1em;
+        margin-top: 4em;
         display: flex;
         justify-content: center;
         height: 25px;
     }
-   
 }
 
-@media (min-width: 550px) {
+@media (max-width: 391px) {
 
     body {
+        background-image: url(../fundos/formula_1_dark.jpg);
+        background-size: 100vh;
+    }
+
+    .ranking {
+    
+        margin-top: 3em;
+        display: grid;
+        grid-template-columns: 45% 50%;
+        align-items: center;
+        gap: 10px;
         
-        background-image: url(../fundos/fundo1.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 190vh;
-        
+    }
+
+    .car {
+        margin-left: 10px;
+        height: 25px;
+    }
+
+    .row {
+
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: center;
+        font-size: 0.5em;
+        font-family: Arial, sans-serif;
+        color: #C2C744;
         
     }
 
     .logos__f1 {
 
-        margin-top: 8em;
+        margin-top: 4em;
         display: flex;
         justify-content: center;
         height: 25px;

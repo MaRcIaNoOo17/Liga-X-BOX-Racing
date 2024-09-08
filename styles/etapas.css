@@ -14,11 +14,10 @@
 
 body {
 
-    background-image: url(../fundos/fundo1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    opacity: 0.8;
+   background-image: url(../fundos/fundo1.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   
    
     
 
@@ -39,6 +38,7 @@ a {
     font-size: 40px;
     text-decoration: none;
     color: #C2C744;
+    
 
 }
 
@@ -50,6 +50,7 @@ a {
     justify-content: space-between;
     flex-direction: column;
     text-align: center;
+    opacity: 0.7;
     
 
 }
@@ -92,51 +93,25 @@ td {
 
 }
 
-@media (min-width: 390px) {
+@media (max-width: 550px ) {
 
-    body {
+ body {
 
-        background-image: url(../fundos/f1_wheels.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 70vh;
-        opacity: 0.8;
-       
-        
+    background-image: url(../fundos/f1_wheels.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80vh;
+
+ }
+
+ .rodape__equipes {
+
+    height: 25px;
+    margin-top: 6em;
+    display: flex;
+    justify-content: center;
+
+}
     
-    }
-
-    .rodape__equipes {
-
-        height: 25px;
-        margin-top: 3em;
-        display: flex;
-        justify-content: center;
-    
-    }
-
-    @media (min-width: 550px) {
-
-        body {
-    
-            background-image: url(../fundos/f1_wheels.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: 70vh;
-            opacity: 0.8;
-           
-            
-        
-        }
-    
-        .rodape__equipes {
-    
-            height: 25px;
-            margin-top: 8em;
-            display: flex;
-            justify-content: center;
-        
-        }
-    }
 }
 
