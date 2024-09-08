@@ -126,7 +126,7 @@ h1 {
         text-decoration: none;
         color: #C2C744;
         font-family: 'rye', serif;
-        font-size: 12px;
+        font-size: 14px;
     
      }
 
@@ -159,6 +159,17 @@ h1 {
         
         
     } 
+
+}
+
+    @media (max-width: 391px) {
+
+        body {
+    
+            background-image: url(../fundos/fundoclassificacao.png);
+            background-position: center;
+            background-size: 55vh;
+        }
 }
 
 
