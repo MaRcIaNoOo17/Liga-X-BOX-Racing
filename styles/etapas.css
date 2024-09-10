@@ -18,9 +18,6 @@ body {
    background-image: url(../fundos/fundo1.png);
    background-repeat: no-repeat;
    background-position: center;
-   
-   
-    
 
 }
 
@@ -40,16 +37,15 @@ a {
     text-decoration: none;
     color: #C2C744;
     
-
 }
 
 a:hover {
 
    color:  #ca7e15;
+
 }
 
 .tabela__temporada {
-
     
     box-sizing: border-box;
     display: flex;
@@ -58,7 +54,6 @@ a:hover {
     text-align: center;
     opacity: 0.7;
     
-
 }
 
 .tabela__gp {
@@ -70,7 +65,6 @@ a:hover {
 
 td {
 
-    
     border: #C2C744 solid 2px;
     border-radius: 10px;
     font-family: 'arial', sans-serif serif;

@@ -55,7 +55,7 @@ a:hover {
     margin-top: 3em;
     display: flex;
     justify-content: center;
-    height: 40px;
+    height: 35px;
 }
 
 .row {
@@ -63,7 +63,6 @@ a:hover {
     
     display: flex;
     flex-direction: row-reverse;
-    
     text-align: center;
     font-size: 10px;
     font-family: Arial, sans-serif;
@@ -202,6 +201,13 @@ a:hover {
     animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
 }
 
+.info21  {
+
+    
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+}
+
 @keyframes slide-in {
     0% {
         transform: translateX(-100%); /* Começa fora da tela */
@@ -241,6 +247,7 @@ a:hover {
 .img18 { animation-delay: 9s; }
 .img19 { animation-delay: 9.5s; }
 .img20 { animation-delay: 10s; }
+.img21 { animation-delay: 10.5s; }
 .info1 { animation-delay: 0.5s; }
 .info2 { animation-delay: 1s; }
 .info3 { animation-delay: 1.5s;}
@@ -261,6 +268,7 @@ a:hover {
 .info18 { animation-delay: 9s; }
 .info19 { animation-delay: 9.5s; }
 .info20 { animation-delay: 10s; }
+.info21 { animation-delay: 10.5s; }
 
 /* Adicione delays semelhantes para mais linhas */
  
