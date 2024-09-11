@@ -37,6 +37,7 @@ a {
     text-decoration: none;
     color: #C2C744;
     
+    
 }
 
 a:hover {
@@ -52,7 +53,8 @@ a:hover {
     justify-content: space-between;
     flex-direction: column;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.9;
+    
     
 }
 
@@ -60,6 +62,7 @@ a:hover {
 
     display: flex;
     justify-content: center;
+   
 
 }
 
@@ -70,6 +73,7 @@ td {
     font-family: 'arial', sans-serif serif;
     color: #f6e821;
     background-color: #0C3323;
+    
 
 }
 
@@ -80,6 +84,7 @@ td {
     margin-top: 5px;
     height: 25px;
     width: 25px;
+    
 
 }
 

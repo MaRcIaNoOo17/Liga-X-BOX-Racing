@@ -36,6 +36,7 @@ a {
 a:hover {
 
     color: #ca7e15;
+    
 }
 
 
@@ -43,9 +44,10 @@ a:hover {
     
     margin-top: 3em;
     display: grid;
-    grid-template-columns: 35% 45%;
+    grid-template-columns: 25% 65%;
     align-items: center;
     gap: 10px;
+    
     
     
 }
@@ -65,8 +67,9 @@ a:hover {
     flex-direction: row-reverse;
     text-align: center;
     font-size: 10px;
-    font-family: Arial, sans-serif;
+    font-family: 'Joti one', sans-serif;
     color:#C2C744;
+    
     
     
 }
@@ -75,7 +78,7 @@ a:hover {
 
     height: 50px;
     animation: fade-in 2s ease-in-out backwards, slide-in 2s ease-in-out backwards;
-    margin-left: 4em;
+    margin-left: 1em;
     
     
 }
@@ -84,6 +87,7 @@ a:hover {
 
     opacity: 0;
     animation: fade-in 2s ease-in-out forwards, slide-in 2s ease-in-out forwards;
+    
 }
 
 .info2  {
@@ -305,7 +309,7 @@ a:hover {
         flex-direction: row-reverse;
         text-align: center;
         font-size: 0.5em;
-        font-family: Arial, sans-serif;
+        font-family: 'Joti one', sans-serif;
         color: #C2C744;
         
     }
@@ -339,6 +343,7 @@ a:hover {
     .car {
         margin-left: 10px;
         height: 25px;
+        margin-left: 1em;
     }
 
     .row {
@@ -347,7 +352,7 @@ a:hover {
         flex-direction: row-reverse;
         text-align: center;
         font-size: 0.5em;
-        font-family: Arial, sans-serif;
+        font-family: 'Joti one', sans-serif;
         color: #C2C744;
         
     }

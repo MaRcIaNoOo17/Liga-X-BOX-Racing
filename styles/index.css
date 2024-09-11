@@ -126,7 +126,7 @@ h1 {
 
         text-decoration: none;
         color: #C2C744;
-        font-family: 'rye', serif;
+        font-family: 'Joti one', sans-serif;
         font-size: 14px;
     
      }
@@ -135,7 +135,7 @@ h1 {
 
         margin: 10px;
         color: var(--cor-secundaria);
-        font-family: 'Rye', serif;
+        font-family: 'Joti one', sans-serif;
         font-size: 1.5em;
         text-align: center;
         margin-top: 1.5em;
@@ -178,9 +178,24 @@ h1 {
             display: flex;
             justify-content: center;
             height: 20px;
-            
-            
+              
         } 
+
+        a {
+
+            text-decoration: none;
+            color: #C2C744;
+            font-family: 'Joti one', sans-serif;
+            font-size: 12px;
+        
+         }
+    
+        h1 {
+    
+            margin: 10px;
+            color: var(--cor-secundaria);
+            font-family: 'Joti one', sans-serif;
+         }
 }
 
 
